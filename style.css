@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(242, 200, 200);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.display{
+    display: flex;
+    margin: 10px 0;
+}
+
+.display input{
+    width: 207px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: right;
+    flex: 1;
+    font-size: 25px;
+}
+
+.calculator button{
+    padding: 1vh;
+    width: 50px;
+    height: 50px;
+    margin: 3px 0;
+    border-radius: 10px;
+    background: lightgreen;
+}
+
+button#equal{
+    width: 105px;
+    background: rgb(63, 103, 117);
+}
+
+button#clear{
+    background: red;
+}
